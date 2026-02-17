@@ -1,4 +1,4 @@
--- local fios_sequenciados = require('fios_sequenciados')
+local fios_sequenciados = require('fios_sequenciados')
 local memoria = require('memoria')
 local diagrama_venn = require('diagrama_venn')
 local senha = require('senha')
@@ -11,10 +11,10 @@ while true do
    ::start::
 
    local modules = {
-      -- { name = 'Fios Sequenciados', func = fios_sequenciados },
-      { name = 'Diagrama de Venn', func = diagrama_venn },
-      { name = 'Memória',          func = memoria },
-      { name = 'Senha',            func = senha }
+      { name = 'Fios Sequenciados', func = fios_sequenciados },
+      { name = 'Diagrama de Venn',  func = diagrama_venn },
+      { name = 'Memória',           func = memoria },
+      { name = 'Senha',             func = senha }
    }
 
    print('Modulos Disponiveis ===')

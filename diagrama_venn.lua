@@ -1,4 +1,4 @@
-function diagrama_venn()
+local function diagrama_venn()
    print('Possibilidades do fio:')
    print('(V)ermelho | (A)zul | (L)ed | (E)strela')
    print("Digite 'sair' para encerrar.")

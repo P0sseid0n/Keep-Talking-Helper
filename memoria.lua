@@ -1,4 +1,4 @@
-function memoria()
+local function memoria()
    local estagio = 1
    local historico = {} -- salva {estagio: {"pos": X, "num": Y}}
 
