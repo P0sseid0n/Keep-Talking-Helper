@@ -120,7 +120,7 @@ local function memoria()
          end
       end
 
-      estagio += 1
+      estagio = estagio + 1
       if estagio > 5 then
          print("\nMódulo de memória completo!")
          break
