@@ -29,7 +29,7 @@
 ## Estrutura do projeto 📁
 
 ```
-├── main.lua                 # 🏠 Menu principal
+├── main.lua                # 🏠 Menu principal
 ├── fios_sequenciados.lua   # 🧵 Módulo de fios
 ├── diagrama_venn.lua       # 🔀 Módulo diagrama
 ├── memoria.lua             # 🧠 Módulo memória
