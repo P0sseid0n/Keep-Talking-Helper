@@ -1,6 +1,6 @@
 -- local fios_sequenciados = require('fios_sequenciados')
 -- local memoria = require('memoria')
--- local diagrama_venn = require('diagrama_venn')
+local diagrama_venn = require('diagrama_venn')
 local senha = require('senha')
 
 if package.config:sub(1, 1) == "\\" then
@@ -12,9 +12,9 @@ while true do
 
    local modules = {
       -- { name = 'Fios Sequenciados', func = fios_sequenciados },
-      -- { name = 'Diagrama de Venn', func = diagrama_venn },
+      { name = 'Diagrama de Venn', func = diagrama_venn },
       -- { name = 'Memória',           func = memoria },
-      { name = 'Senha', func = senha }
+      { name = 'Senha',            func = senha }
    }
 
    print('Modulos Disponiveis ===')
